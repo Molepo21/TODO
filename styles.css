@@ -1,9 +1,9 @@
 :root {
     --white: #fff;
     --light-grey: #f5f6f7;
-    --dark-grey: #0a0a23;
-    --yellow: #f1be32;
-    --golden-yellow: #feac32;
+    --dark-grey: #5d125d3f;
+    --yellow: #06060671;
+    --golden-yellow: #06060671;
   }
   
   *,
@@ -26,7 +26,7 @@
   }
   
   h1 {
-    color: var(--light-grey);
+    color: black;
     margin: 20px 0 40px 0;
   }
   
@@ -47,15 +47,15 @@
     cursor: pointer;
     width: 100px;
     margin: 10px;
-    color: var(--dark-grey);
+    color: black;
     background-color: var(--golden-yellow);
-    background-image: linear-gradient(#fecc4c, #ffac33);
+    background-image: linear-gradient(#218716, #14b04a92);
     border-color: var(--golden-yellow);
     border-width: 3px;
   }
   
   .btn:hover {
-    background-image: linear-gradient(#ffcc4c, #f89808);
+    background-image: linear-gradient(#2df405c9, #08f8bc);
   }
   
   .large-btn {
